@@ -16,4 +16,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         FOLDER: build
-        BUILD_SCRIPT: sudo npm install --unsafe-perm  && sudo npm run build
+        BUILD_SCRIPT: npm -v && npm install --unsafe-perm  && npm run build
