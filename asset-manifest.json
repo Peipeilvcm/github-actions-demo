@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/github-actions-demo/static/css/main.9c46b46f.chunk.css",
+    "main.js": "/github-actions-demo/static/js/main.3b6c877d.chunk.js",
+    "main.js.map": "/github-actions-demo/static/js/main.3b6c877d.chunk.js.map",
+    "runtime~main.js": "/github-actions-demo/static/js/runtime~main.f2d7db91.js",
+    "runtime~main.js.map": "/github-actions-demo/static/js/runtime~main.f2d7db91.js.map",
+    "static/css/2.bf8c8365.chunk.css": "/github-actions-demo/static/css/2.bf8c8365.chunk.css",
+    "static/js/2.6e1cb36c.chunk.js": "/github-actions-demo/static/js/2.6e1cb36c.chunk.js",
+    "static/js/2.6e1cb36c.chunk.js.map": "/github-actions-demo/static/js/2.6e1cb36c.chunk.js.map",
+    "index.html": "/github-actions-demo/index.html",
+    "precache-manifest.9bbfe3c6765f729dc21c96370dc402b3.js": "/github-actions-demo/precache-manifest.9bbfe3c6765f729dc21c96370dc402b3.js",
+    "service-worker.js": "/github-actions-demo/service-worker.js",
+    "static/css/2.bf8c8365.chunk.css.map": "/github-actions-demo/static/css/2.bf8c8365.chunk.css.map",
+    "static/css/main.9c46b46f.chunk.css.map": "/github-actions-demo/static/css/main.9c46b46f.chunk.css.map",
+    "static/media/pe-icon-7-stroke.css": "/github-actions-demo/static/media/Pe-icon-7-stroke.c45f7de0.svg",
+    "static/media/bootstrap.min.css": "/github-actions-demo/static/media/glyphicons-halflings-regular.fa277232.woff",
+    "static/media/reactlogo.png": "/github-actions-demo/static/media/reactlogo.9b864b36.png",
+    "static/media/sidebar-1.jpg": "/github-actions-demo/static/media/sidebar-1.6be21e8a.jpg",
+    "static/media/sidebar-2.jpg": "/github-actions-demo/static/media/sidebar-2.7a4ce7cc.jpg",
+    "static/media/sidebar-3.jpg": "/github-actions-demo/static/media/sidebar-3.34535b95.jpg",
+    "static/media/sidebar-4.jpg": "/github-actions-demo/static/media/sidebar-4.7bc259fd.jpg"
+  }
+}
