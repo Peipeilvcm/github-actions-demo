@@ -21,7 +21,7 @@ import { Grid, Row, Col } from "react-bootstrap";
 
 import { Card } from "components/Card/Card.jsx";
 import { StatsCard } from "components/StatsCard/StatsCard.jsx";
-import { Tasks } from "components/Tasks/Tasks.jsx";
+// import { Tasks } from "components/Tasks/Tasks.jsx";
 import {
   dataPie,
   legendPie,
@@ -29,10 +29,10 @@ import {
   optionsSales,
   responsiveSales,
   legendSales,
-  dataBar,
-  optionsBar,
-  responsiveBar,
-  legendBar
+  // dataBar,
+  // optionsBar,
+  // responsiveBar,
+  // legendBar
 } from "variables/Variables.jsx";
 
 class Dashboard extends Component {
@@ -54,8 +54,8 @@ class Dashboard extends Component {
             <Col lg={3} sm={6}>
               <StatsCard
                 bigIcon={<i className="pe-7s-server text-warning" />}
-                statsText="Capacity"
-                statsValue="105GB"
+                statsText="CI count"
+                statsValue="10 times"
                 statsIcon={<i className="fa fa-refresh" />}
                 statsIconText="Updated now"
               />
@@ -63,8 +63,8 @@ class Dashboard extends Component {
             <Col lg={3} sm={6}>
               <StatsCard
                 bigIcon={<i className="pe-7s-wallet text-success" />}
-                statsText="Revenue"
-                statsValue="$1,345"
+                statsText="Successes"
+                statsValue="8 times"
                 statsIcon={<i className="fa fa-calendar-o" />}
                 statsIconText="Last day"
               />
@@ -73,7 +73,7 @@ class Dashboard extends Component {
               <StatsCard
                 bigIcon={<i className="pe-7s-graph1 text-danger" />}
                 statsText="Errors"
-                statsValue="23"
+                statsValue="2 times"
                 statsIcon={<i className="fa fa-clock-o" />}
                 statsIconText="In the last hour"
               />
@@ -81,8 +81,8 @@ class Dashboard extends Component {
             <Col lg={3} sm={6}>
               <StatsCard
                 bigIcon={<i className="fa fa-twitter text-info" />}
-                statsText="Followers"
-                statsValue="+45"
+                statsText="Total time cost"
+                statsValue="21.2 mins"
                 statsIcon={<i className="fa fa-refresh" />}
                 statsIconText="Updated now"
               />
@@ -93,8 +93,8 @@ class Dashboard extends Component {
               <Card
                 statsIcon="fa fa-history"
                 id="chartHours"
-                title="Users Behavior"
-                category="24 Hours performance"
+                title="CIs Behavior"
+                category="10 recent results"
                 stats="Updated 3 minutes ago"
                 content={
                   <div className="ct-chart">
@@ -114,8 +114,8 @@ class Dashboard extends Component {
             <Col md={4}>
               <Card
                 statsIcon="fa fa-clock-o"
-                title="Email Statistics"
-                category="Last Campaign Performance"
+                title="CI Report Statistics"
+                category="Total Results"
                 stats="Campaign sent 2 days ago"
                 content={
                   <div
@@ -132,7 +132,7 @@ class Dashboard extends Component {
             </Col>
           </Row>
 
-          <Row>
+          {/* <Row>
             <Col md={6}>
               <Card
                 id="chartActivity"
@@ -171,7 +171,7 @@ class Dashboard extends Component {
                 }
               />
             </Col>
-          </Row>
+          </Row> */}
         </Grid>
       </div>
     );

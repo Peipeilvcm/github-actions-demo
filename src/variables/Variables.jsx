@@ -598,6 +598,12 @@ var legendBar = {
   types: ["info", "danger"]
 };
 
+// import { getPostInfo, getPostList } from 'posts'
+
+// const postInfo = getPostInfo();
+
+// const postsArray = getPostList();
+
 module.exports = {
   style, // For notifications (App container and Notifications view)
   thArray,
@@ -612,5 +618,7 @@ module.exports = {
   dataBar,
   optionsBar,
   responsiveBar,
-  legendBar // For charts (Dashboard view)
+  legendBar, // For charts (Dashboard view)
+  // postInfo,
+  // postsArray
 };

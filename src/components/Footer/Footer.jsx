@@ -29,22 +29,22 @@ class Footer extends Component {
                 <a href="#pablo">Home</a>
               </li>
               <li>
-                <a href="#pablo">Company</a>
+                <a href="https://www.sensetime.com/">Company</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#pablo">Portfolio</a>
-              </li>
+              </li> */}
               <li>
-                <a href="#pablo">Blog</a>
+                <a href="#pablo">CI Reports</a>
               </li>
             </ul>
           </nav>
           <p className="copyright pull-right">
             &copy; {new Date().getFullYear()}{" "}
-            <a href="http://www.creative-tim.com?ref=lbr-footer">
-              Creative Tim
+            <a href="https://www.sensetime.com/">
+              Sensetime
             </a>
-            , made with love for a better web
+            , made with love for AI
           </p>
         </Grid>
       </footer>
